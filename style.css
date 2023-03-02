@@ -11,6 +11,7 @@ html {
 body {
     margin: 0 auto;
     font-family: 'Tilt Neon', cursive;
+    text-align: center;
    
 }
 
@@ -19,6 +20,7 @@ h1{
     color: black;
     text-align: center;
     font-size: 35px;
+    display: inline-block;
 }
 
 h3{
@@ -30,7 +32,9 @@ font-family: 'Tilt Neon', cursive;
 }
 
 .completed {
-    text-decoration: line-through;
+    text-decoration:line-through;
+    background-color: rgba(255, 255, 255, 0.307);
+    color: b;
 
 }
 
@@ -51,7 +55,7 @@ font-family: 'Tilt Neon', cursive;
 }
 
 .all-list-elements ul {
-    width: 100px;
+    width:fit-content;
     text-align: center;
     display: block;
     margin: 0 auto;
