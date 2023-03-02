@@ -2,12 +2,7 @@
     box-sizing: border-box;
   }
 
-  @media screen and (min-width: 80rem) {
-    html {
-      margin: 5em 6em;
-
-    }
-  }
+  
 html { 
     background-color: white;
     background-size: auto;
@@ -53,18 +48,21 @@ color: rgb(165, 163, 162);
 position: relative;
 top: 10px;
 font-family: 'Tilt Neon', cursive;
+width: 500px;
 }
 
 .completed {
     text-decoration:line-through;
-    background-color:rgb(158, 161, 212);
-    color: b;
+    
+    opacity: 30%;
+
 
 }
 
 .all-list-elements {
     text-align: center;
     display: block;
+    margin: 0 auto;
     
 }
 
@@ -80,38 +78,35 @@ font-family: 'Tilt Neon', cursive;
    
 }
 
-.all-list-elements ul {
-    width:fit-content;
-    text-align: center;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    color: rebeccapurple;
-    padding: 10px auto;
-   
-    
+#to-do-list{
+position: relative;
+text-align: left;
+margin-left: 0;
+padding-bottom: 25px;
+padding-top: 0px;
 }
 
+
 ul li {
-    background: rgb(255, 255, 255);
-    color: darkblue;
-    margin: 5px;
-    max-width: 200px;
+    color: black;
+    background-color: rgb(241, 247, 181);
+    position: relative;
     text-align: center;
-    list-style-type: none;
-    margin: 0 auto;
-  padding: 0 auto;
+    margin: 4px auto;
+    min-width: 50px;
+    max-width: 170px;
+    list-style-type: square;
+    
 }
 
 
 .btn {
-    width:fit-content;
+    width: 140px;
     height: 40px;
     display: inline-block;   
-    position: sticky;
     top: 600px;
-    padding: 100px auto;
-    margin: 0 auto;
+    padding: 400px auto;
+    margin: 40px 0 auto;
     top: 35px;
     font-family: 'Tilt Neon', cursive;
     font-size: 15px;
@@ -141,12 +136,12 @@ ul li {
 
 .input-add-list-btn {
     background-color:rgb(168, 209, 209);
-    display: inline-block;
+    display: block;
     margin: 0 auto;
-    text-align: center;
+
     min-width: fit-content;
     min-height: fit-content;
-    max-height: 700px;
+    max-height: 500px;
 position: relative;
 top: 30px;
     max-width: 800px;
