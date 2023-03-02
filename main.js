@@ -8,6 +8,15 @@ function addToDoItem(){
 } 
 }
 
+textbox.addEventListener("keypress", function(event) {
+    if (event.key === "Enter") {
+      event.preventDefault();
+      document.getElementById("add-button").click();
+    }
+  });
+    
+    
+
 let clearButton = document.getElementById("clear-completed-button")
 clearButton.addEventListener("click",clearList)
 function clearList(){
