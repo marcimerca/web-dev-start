@@ -42,13 +42,19 @@ h1{
     
 }
 
-h3{
+h3, h4 { 
 text-align: center;
-color: rgb(165, 163, 162);
+color: rgba(93, 89, 88, 0.627);
 position: relative;
 top: 10px;
 font-family: 'Tilt Neon', cursive;
 width: 500px;
+}
+
+h4 {
+position: relative;
+top: -3px;
+font-size: smaller;
 }
 
 .completed {
@@ -74,6 +80,7 @@ width: 500px;
     border-radius: 8px;
     border-color: rgb(122, 62, 101);
     font-family:'Tilt Neon', cursive; 
+    font-size: 15px;
    
    
 }
@@ -96,6 +103,7 @@ ul li {
     min-width: 50px;
     max-width: 170px;
     list-style-type: square;
+    font-size: 15px;
     
 }
 
@@ -143,7 +151,7 @@ ul li {
     min-height: fit-content;
     max-height: 500px;
 position: relative;
-top: 30px;
+top: 8px;
     max-width: 800px;
     padding-top: 20px;
     padding-bottom: 20px;
