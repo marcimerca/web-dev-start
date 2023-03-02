@@ -9,9 +9,10 @@
     }
   }
 html { 
-    background-color: #FD8A8A;
+    background-color: white;
     background-size: auto;
-    font-family: 'Tilt Neon', cursive
+    font-family: 'Tilt Neon', cursive;
+    
   }
 
 body {
@@ -28,6 +29,7 @@ body {
     padding-bottom: 70px;
     padding-left: 50px;
     padding-right: 50px;
+    border-radius: 40px;
     
 }
    
@@ -62,16 +64,18 @@ font-family: 'Tilt Neon', cursive;
 
 .all-list-elements {
     text-align: center;
+    display: block;
     
 }
 
 .all-list-elements input {
     width: 190px;
     height: 40px;
-    text-align: left;
+    text-align: center;
     display: inline-block;
     border-radius: 8px;
     border-color: rgb(122, 62, 101);
+    font-family:'Tilt Neon', cursive; 
    
    
 }
@@ -81,7 +85,24 @@ font-family: 'Tilt Neon', cursive;
     text-align: center;
     display: block;
     margin: 0 auto;
+    text-align: center;
+    color: rebeccapurple;
+    padding: 10px auto;
+   
+    
 }
+
+ul li {
+    background: rgb(255, 255, 255);
+    color: darkblue;
+    margin: 5px;
+    max-width: 200px;
+    text-align: center;
+    list-style-type: none;
+    margin: 0 auto;
+  padding: 0 auto;
+}
+
 
 .btn {
     width:fit-content;
