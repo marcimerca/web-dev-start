@@ -1,10 +1,12 @@
 let addButton = document.getElementById("add-button") 
 addButton.addEventListener("click",addToDoItem) // click = tipo di evento. Quando ascolta click, esegue la funzione
 function addToDoItem(){
-   const itemText = textInput.value
+   if (textInput.value!==""){
+    const itemText = textInput.value
    newToDoItem(itemText,false)
    console.log(`"${itemText}" was added to the list.`)
 } 
+}
 
 let clearButton = document.getElementById("clear-completed-button")
 clearButton.addEventListener("click",clearList)
