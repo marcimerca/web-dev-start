@@ -1,5 +1,103 @@
+html { 
+    background-color: white;
+    background-size: auto;
+    font-family: 'Tilt Neon', cursive
+  }
+
+body {
+    margin: 0 auto;
+    font-family: 'Tilt Neon', cursive;
+   
+}
+
 h1{
-    color: orange;
+   font-family: 'Tilt Neon', cursive;
+    color: black;
     text-align: center;
     font-size: 35px;
+}
+
+h3{
+text-align: center;
+color: rgb(165, 163, 162);
+position: relative;
+bottom: 15px;
+font-family: 'Tilt Neon', cursive;
+}
+
+.completed {
+    text-decoration: line-through;
+
+}
+
+.all-list-elements {
+    text-align: center;
+    
+}
+
+.all-list-elements input {
+    width: 190px;
+    height: 40px;
+    text-align: left;
+    display: inline-block;
+    border-radius: 8px;
+    border-color: rgb(122, 62, 101);
+   
+   
+}
+
+.all-list-elements ul {
+    width: 100px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.btn {
+    width:fit-content;
+    height: 40px;
+    display: inline-block;   
+    position: sticky;
+    top: 600px;
+    padding: 100px auto;
+    margin: 0 auto;
+    top: 35px;
+    font-family: 'Tilt Neon', cursive;
+    font-size: 15px;
+    background-color: rgb(122, 62, 101);
+    color: rgb(246, 225, 195);
+    border-style:none;
+    border-radius: 20px;
+    
+    
+}
+
+#add-button {
+    color:rgb(246, 225, 195);
+    background-color:rgb(122, 62, 101);
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 0;
+    font-family:'Tilt Neon', cursive;
+    letter-spacing: 1px;
+    border-style:none;
+    margin: 0 auto;
+    
+   
+}
+
+.input-add-list-btn {
+    background-color:rgb(114, 134, 211);
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 500px;
+    height: 400px;
+    padding-top: 30px;
+    border-radius: 15px;
+    overflow: scroll;
+    
+   
 }

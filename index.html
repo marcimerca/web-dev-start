@@ -5,17 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./style.css" rel="stylesheet">
-    <title>My first To do List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+    <title>My first To-do List</title>
 </head>
 <body>
-    <h1>My first<em> To-Do</em> List</h1>
-    <label for="textbox">Lista</label>
-<input type="text" name="textbox" id= "textbox">
+    <h1>My first To-do List</h1>
+    <h3>Click on your item to mark it as complete.</h3>
+    <section class="all-list-elements">
+    
+    <section class="input-add-list-btn">
+<input type="text" name="textbox" id= "textbox"> <button type="button" id="add-button">ADD</button>
+<br> <br>
+
 <ul id= "to-do-list"></ul>
-<button type="button" id="add-button">Add</button>
-<button type="button" id="clear-completed-button">Clear Completed</button>
-<button type="button" id ="empty-button" >Empty List</button>
-<button type="button" id="save-button">Save List</button>
+
+<button type="button" class="btn" id="clear-completed-button">Clear Completed</button>
+<button type="button" class="btn" id ="empty-button" >Empty List</button>
+<button type="button" class="btn" id="save-button">Save List</button>
+</section>
+</section>
 
    <script src="main.js"> </script>
 </body>
