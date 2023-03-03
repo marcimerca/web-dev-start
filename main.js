@@ -38,6 +38,7 @@ function emptyList (){
 
 let saveListButton = document.getElementById("save-button")
 saveListButton.addEventListener("click",saveList)
+
 function saveList () {
     let toDos = [];
     for (let i = 0; i <toDoList.children.length; i++) {

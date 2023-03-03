@@ -61,9 +61,20 @@ font-size: smaller;
     text-decoration:line-through;
     
     opacity: 30%;
+    list-style-type: checked-emoji;
 
 
 }
+
+
+@counter-style checked-emoji {
+    system: cyclic;
+    symbols: "\2705" ;
+    suffix: "  ";
+
+  }
+  
+
 
 .all-list-elements {
     text-align: center;
@@ -87,25 +98,37 @@ font-size: smaller;
 
 #to-do-list{
 position: relative;
-text-align: left;
-margin-left: 0;
+text-align: center;
+margin: 0 auto;
 padding-bottom: 25px;
-padding-top: 0px;
+
 }
 
 
 ul li {
     color: black;
-    background-color: rgb(241, 247, 181);
     position: relative;
     text-align: center;
-    margin: 4px auto;
-    min-width: 50px;
-    max-width: 170px;
-    list-style-type: square;
+    margin: 1px auto;
+    padding: 0 auto;
+    width: 30px;
     font-size: 15px;
+    list-style-type: repeating-emoji;
+    list-style-position: outside;
     
+
 }
+    
+@counter-style repeating-emoji {
+    system: cyclic;
+    symbols: "\1F7E8" ;
+    suffix: "  ";
+
+  }
+  
+
+
+
 
 
 .btn {
