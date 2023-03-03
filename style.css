@@ -1,188 +1,156 @@
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
-  
-html { 
-    background-color: white;
-    background-size: auto;
-    font-family: 'Tilt Neon', cursive;
-    
-  }
+html {
+  background-color: white;
+  background-size: auto;
+  font-family: "Tilt Neon", cursive;
+}
 
 body {
-    margin: 0 auto;
-    font-family: 'Tilt Neon', cursive;
-    text-align: center;
-    position: relative;
-    top: 0px;
-    background-color: rgb(241, 247, 181);
-    min-width: fit-content;
-    max-width: fit-content;
-    min-height: fit-content;
-    max-height: fit-content;
-    padding-bottom: 70px;
-    padding-left: 50px;
-    padding-right: 50px;
-    border-radius: 40px;
-    
-}
-   
-
-
-h1{
-   font-family: 'Tilt Neon', cursive;
-    color: black;
-    text-align: center;
-    font-size: 35px;
-    display: block;
-    position: relative;
-    top: 20px;
-    
-    
+  margin: 0 auto;
+  font-family: "Tilt Neon", cursive;
+  text-align: center;
+  position: relative;
+  top: 0px;
+  background-color: rgb(241, 247, 181);
+  min-width: fit-content;
+  max-width: fit-content;
+  min-height: fit-content;
+  max-height: fit-content;
+  padding-bottom: 70px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 40px;
 }
 
-h3, h4 { 
-text-align: center;
-color: rgba(93, 89, 88, 0.627);
-position: relative;
-top: 10px;
-font-family: 'Tilt Neon', cursive;
-width: 500px;
+h1 {
+  font-family: "Tilt Neon", cursive;
+  color: black;
+  text-align: center;
+  font-size: 35px;
+  display: block;
+  position: relative;
+  top: 20px;
+}
+
+h3,
+h4 {
+  text-align: center;
+  color: rgba(93, 89, 88, 0.627);
+  position: relative;
+  top: 10px;
+  font-family: "Tilt Neon", cursive;
+  width: 500px;
 }
 
 h4 {
-position: relative;
-top: -3px;
-font-size: smaller;
+  position: relative;
+  top: -3px;
+  font-size: smaller;
 }
 
 .completed {
-    text-decoration:line-through;
-    
-    opacity: 30%;
-    list-style-type: checked-emoji;
+  text-decoration: line-through;
 
-
+  opacity: 30%;
+  list-style-type: checked-emoji;
 }
 
-
 @counter-style checked-emoji {
-    system: cyclic;
-    symbols: "\2705" ;
-    suffix: "  ";
-
-  }
-  
-
+  system: cyclic;
+  symbols: "\2705";
+  suffix: "  ";
+}
 
 .all-list-elements {
-    text-align: center;
-    display: block;
-    margin: 0 auto;
-    
+  text-align: center;
+  display: block;
+  margin: 0 auto;
 }
 
 .all-list-elements input {
-    width: 190px;
-    height: 40px;
-    text-align: center;
-    display: inline-block;
-    border-radius: 8px;
-    border-color: rgb(122, 62, 101);
-    font-family:'Tilt Neon', cursive; 
-    font-size: 15px;
-   
-   
+  width: 190px;
+  height: 40px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 8px;
+  border-color: rgb(122, 62, 101);
+  font-family: "Tilt Neon", cursive;
+  font-size: 15px;
 }
 
-#to-do-list{
-position: relative;
-text-align: center;
-margin: 0 auto;
-padding-bottom: 25px;
-
+#to-do-list {
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 25px;
 }
-
 
 ul li {
-    color: black;
-    position: relative;
-    text-align: center;
-    margin: 1px auto;
-    padding: 0 auto;
-    width: 30px;
-    font-size: 15px;
-    list-style-type: repeating-emoji;
-    list-style-position: outside;
-    
-
+  color: black;
+  position: relative;
+  text-align: center;
+  margin: 1px auto;
+  padding: 0 auto;
+  width: 30px;
+  font-size: 15px;
+  list-style-type: repeating-emoji;
+  list-style-position: outside;
 }
-    
+
 @counter-style repeating-emoji {
-    system: cyclic;
-    symbols: "\1F7E8" ;
-    suffix: "  ";
-
-  }
-  
-
-
-
-
+  system: cyclic;
+  symbols: "\1F7E8";
+  suffix: "  ";
+}
 
 .btn {
-    width: 140px;
-    height: 40px;
-    display: inline-block;   
-    top: 600px;
-    padding: 400px auto;
-    margin: 40px 0 auto;
-    top: 35px;
-    font-family: 'Tilt Neon', cursive;
-    font-size: 15px;
-    background-color: rgb(122, 62, 101);
-    color: rgb(246, 225, 195);
-    border-style:none;
-    border-radius: 20px;
-    
-    
+  width: 140px;
+  height: 40px;
+  display: inline-block;
+  top: 600px;
+  padding: 400px auto;
+  margin: 40px 0 auto;
+  top: 35px;
+  font-family: "Tilt Neon", cursive;
+  font-size: 15px;
+  background-color: rgb(122, 62, 101);
+  color: rgb(246, 225, 195);
+  border-style: none;
+  border-radius: 20px;
 }
 
 #add-button {
-    color:rgb(246, 225, 195);
-    background-color:rgb(122, 62, 101);
-    border-radius: 20px;
-    width: 100px;
-    height: 40px;
-    font-size: 15px;
-    font-weight: 0;
-    font-family:'Tilt Neon', cursive;
-    letter-spacing: 1px;
-    border-style:none;
-    margin: 0 auto;
-    
-   
+  color: rgb(246, 225, 195);
+  background-color: rgb(122, 62, 101);
+  border-radius: 20px;
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 0;
+  font-family: "Tilt Neon", cursive;
+  letter-spacing: 1px;
+  border-style: none;
+  margin: 0 auto;
 }
 
 .input-add-list-btn {
-    background-color:rgb(168, 209, 209);
-    display: block;
-    margin: 0 auto;
+  background-color: rgb(168, 209, 209);
+  display: block;
+  margin: 0 auto;
 
-    min-width: fit-content;
-    min-height: fit-content;
-    max-height: 500px;
-position: relative;
-top: 8px;
-    max-width: 800px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 15px;
-    overflow: scroll;
-    
-   
+  min-width: fit-content;
+  min-height: fit-content;
+  max-height: 500px;
+  position: relative;
+  top: 8px;
+  max-width: 800px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 15px;
+  overflow: scroll;
 }
-
