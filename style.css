@@ -162,6 +162,7 @@ ul li {
 
 @media only screen and (max-width: 480px) {
   body {
-    font-size: 10px;
+    font-size: 12px;
+    width: 300px;
   }
 }
